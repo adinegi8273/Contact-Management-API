@@ -1,0 +1,19 @@
+{
+  "name": "task2-contact-management",
+  "version": "1.0.0",
+  "description": "Contact Management System backend (Task 2)",
+  "keywords": ["contacts", "crud", "express", "postgres"],
+  "license": "MIT",
+  "author": "Aditya Negi",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node insertData.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "pg": "^8.23.0"
+  }
+}
